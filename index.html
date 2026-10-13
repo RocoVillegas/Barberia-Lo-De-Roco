@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111111">
+<title>Barbería El Roco | Reservas</title>
+<style>
+:root{--bg:#090909;--panel:#141414;--panel2:#1b1a18;--line:#302a23;--text:#f7f3ec;--muted:#aaa39a;--accent:#d2a66d;--accent2:#f0d2a7;--green:#25d366;--red:#e28b80;--max:1040px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:20px}body{margin:0;background:radial-gradient(ellipse at 50% -15%,#30261b 0%,#111 34%,var(--bg) 70%);color:var(--text);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}a{color:inherit}header{position:relative;overflow:hidden;padding:30px 18px 26px;text-align:center;background:linear-gradient(180deg,rgba(20,19,17,.98),rgba(10,10,10,.96));border-bottom:1px solid #403326}header:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,transparent 15%,rgba(210,166,109,.06) 50%,transparent 85%)}.logo{position:relative;display:block;width:clamp(132px,28vw,178px);aspect-ratio:1;height:auto;object-fit:contain;margin:0 auto 15px;border-radius:50%;background:#fff;border:3px solid #d0a46a;box-shadow:0 0 0 7px rgba(210,166,109,.08),0 12px 35px #0009}.brand{position:relative;font-size:clamp(30px,6vw,46px);font-weight:950;line-height:1.05;letter-spacing:clamp(3px,1vw,7px)}.brand span{color:var(--accent)}.subtitle{position:relative;color:#c5b7a5;letter-spacing:clamp(2px,.5vw,4px);font-size:11px;font-weight:750;margin:10px 0 21px}nav{position:relative;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}nav a,.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #51402d;border-radius:999px;padding:11px 18px;text-decoration:none;background:#1b1916;color:var(--text);cursor:pointer;font-weight:750;font-size:14px;transition:transform .18s ease,border-color .18s ease,background .18s ease}nav a:hover,.btn:hover{transform:translateY(-1px);border-color:var(--accent)}main{width:min(100% - 32px,var(--max));margin:0 auto 58px}.hero{text-align:center;padding:54px 10px 32px;margin:0 auto 12px}.eyebrow{display:inline-block;color:var(--accent2);text-transform:uppercase;letter-spacing:3px;font-size:11px;font-weight:850;margin-bottom:14px}.hero h1{font-size:clamp(30px,5.5vw,52px);line-height:1.08;letter-spacing:-1.4px;margin:0 auto 15px;max-width:760px}.hero h1 em{font-style:normal;color:var(--accent)}.hero p{color:#c0b8ad;margin:0 auto;max-width:580px;font-size:16px}.hero-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:24px}.card{background:linear-gradient(145deg,rgba(25,24,22,.98),rgba(17,17,17,.98));border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,34px);margin-bottom:22px;box-shadow:0 18px 45px #0002}.card h2{margin:0 0 7px;font-size:clamp(22px,3vw,28px);letter-spacing:-.5px}.muted,.help{color:var(--muted)}.help{font-size:13px;margin:0 0 14px}label{display:block;margin:17px 0 7px;font-size:13px;color:#e5d7c4;font-weight:750}input,select,textarea{width:100%;padding:14px 15px;border:1px solid #403a32;border-radius:11px;background:#0c0c0c;color:var(--text);font:inherit;min-height:49px;transition:border-color .18s ease,box-shadow .18s ease}textarea{min-height:96px;resize:vertical}input:focus,select:focus,textarea:focus{outline:0;border-color:var(--accent);box-shadow:0 0 0 3px #d2a66d24}.grid{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.btn.primary{background:linear-gradient(135deg,#e4c18e,#c18c4d);color:#17110a;border-color:#d2a66d;box-shadow:0 8px 22px #c18c4d20}.btn.primary:hover{background:var(--accent2)}.btn.whatsapp{background:var(--green);border-color:var(--green);color:#07160b;width:100%;margin-top:22px;padding:14px}.btn:disabled{opacity:.45;cursor:not-allowed}.service-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}.service{display:flex;flex-direction:column;justify-content:space-between;min-height:118px;padding:19px;border:1px solid #383027;border-radius:14px;background:linear-gradient(145deg,#1c1a17,#111);position:relative;overflow:hidden}.service:after{content:"";position:absolute;width:90px;height:90px;border:1px solid #d2a66d16;border-radius:50%;right:-35px;bottom:-45px}.service strong{display:block;font-size:15px;line-height:1.4;max-width:270px}.service span{color:var(--accent2);font-size:20px;font-weight:850;margin-top:13px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}.section-head .help{margin:0}.notice{background:#211b13;border:1px solid #57442c;border-radius:11px;padding:13px 15px;color:#e8d4b9;font-size:13px;margin-top:16px}footer{text-align:center;color:var(--muted);font-size:12px;padding:26px 18px 32px;border-top:1px solid #302820;background:#0b0b0b}footer a{color:var(--accent2);text-decoration:none}.footer-brand{font-weight:850;letter-spacing:2px;color:#e8dfd3;margin-bottom:5px}.divider-label{display:flex;align-items:center;gap:12px;color:#82786c;font-size:10px;letter-spacing:2px;text-transform:uppercase;margin:22px 0}.divider-label:before,.divider-label:after{content:"";height:1px;background:#3b3024;flex:1}.payment-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}.payment-option{display:flex;align-items:center;justify-content:center;gap:10px;min-height:76px;padding:16px 12px;border:1px solid #383027;border-radius:14px;background:linear-gradient(145deg,#1c1a17,#111);font-weight:750;text-align:center}.payment-option .pay-icon{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;border:1px solid #8f6d43;color:var(--accent2);font-size:17px;flex-shrink:0}@media(max-width:560px){.payment-list{grid-template-columns:1fr}.payment-option{justify-content:flex-start;padding:14px 18px}}
+@media(max-width:600px){header{padding:24px 14px 21px}.grid,.service-list{grid-template-columns:1fr}.hero{padding:40px 4px 25px}.hero h1{letter-spacing:-.8px}.card{padding:19px;border-radius:16px}.service{min-height:100px}nav a{padding:10px 14px;font-size:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <img class="logo" src="logo-lo-del-roco.jpg" alt="Logo de Barbería Lo Del Roco">
+  <div class="brand">LO DEL <span>ROCO</span></div>
+  <div class="subtitle">BARBERÍA · ESTILO CON PERSONALIDAD</div>
+  <nav>
+    <a href="#reservar">Reservar turno</a>
+    <a href="https://www.instagram.com/barberiaelroco/" target="_blank" rel="noopener">Instagram</a>
+    <a href="#servicios">Servicios y precios</a><a href="admin.html">Acceso del dueño</a>
+  </nav>
+</header>
+<main>
+  <section class="hero"><div class="eyebrow">Tu estilo empieza acá</div><h1>Un buen corte.<br><em>Una mejor versión de vos.</em></h1><p>Elegí tu servicio, solicitá tu turno y dejá el estilo en nuestras manos.</p><div class="hero-actions"><a class="btn primary" href="#reservar">Reservar mi turno&nbsp; ↗</a><a class="btn" href="#servicios">Ver servicios</a></div></section>
+  <section class="card" id="reservar">
+    <div class="section-head"><div><div class="eyebrow">Agenda online</div><h2>Solicitá tu turno</h2></div></div>
+    <p class="help">Atención de lunes a viernes, de 18:00 a 22:00. Los turnos comienzan cada 45 minutos.</p>
+    <form id="bookingForm">
+      <label for="customerName">Nombre y apellido *</label>
+      <input id="customerName" maxlength="100" required autocomplete="name" placeholder="Cómo te llamás">
+      <div class="grid">
+        <div><label for="customerPhone">Teléfono *</label><input id="customerPhone" type="tel" maxlength="30" required autocomplete="tel" placeholder="Tu número"></div>
+        <div><label for="service">Servicio *</label><select id="service" required><option value="">Elegí un servicio</option><option value="Corte de cabello con perfilado de barba/ceja">Corte de cabello con perfilado de barba/ceja — $350</option><option value="Corte Clásico a Tijera">Corte Clásico a Tijera — $300</option><option value="Corte de niño">Corte de niño — $250</option><option value="Perfilado de barba">Perfilado de barba — $100</option></select></div>
+      </div>
+      <label for="bookingDate">Fecha *</label>
+      <input id="bookingDate" type="date" required>
+      <label for="slot">Horario disponible *</label>
+      <select id="slot" required><option value="">Primero elegí una fecha</option></select>
+      <label for="details">Detalles del trabajo (opcional)</label>
+      <textarea id="details" maxlength="1000" placeholder="Ej.: número de máquina, estilo deseado, largo, detalles de barba..."></textarea>
+      <button class="btn primary" id="submitBooking" type="submit" style="width:100%;margin-top:22px">Solicitar turno</button>
+      <div id="bookingResult" class="notice" hidden aria-live="polite"></div>
+    </form>
+    <div class="notice">La solicitud queda pendiente de confirmación. Para evitar reservas duplicadas, el horario se bloquea al registrarse la solicitud y se libera si se cancela. Los horarios ocupados no se mostrarán disponibles cuando la web esté conectada a Supabase.</div>
+  </section>
+  <section class="card" id="servicios">
+    <div class="section-head"><div><div class="eyebrow">Lista de precios</div><h2>Servicios</h2><p class="help">Precios en pesos uruguayos (UYU).</p></div></div>
+    <div class="service-list">
+      <div class="service"><strong>Corte de cabello con perfilado de barba/ceja</strong><span>$350 <small>UYU</small></span></div>
+      <div class="service"><strong>Corte clásico a tijera</strong><span>$300 <small>UYU</small></span></div>
+      <div class="service"><strong>Corte de niño</strong><span>$250 <small>UYU</small></span></div>
+      <div class="service"><strong>Perfilado de barba</strong><span>$100 <small>UYU</small></span></div>
+    </div>
+  </section>
+  <section class="card" id="pagos">
+    <div class="eyebrow">Pagá como te quede más cómodo</div>
+    <h2>Medios de pago</h2>
+    <p class="help">Aceptamos estas tres formas de pago:</p>
+    <div class="payment-list">
+      <div class="payment-option"><span class="pay-icon" aria-hidden="true">↗</span><span>Transferencia bancaria</span></div>
+      <div class="payment-option"><span class="pay-icon" aria-hidden="true">$</span><span>Mercado Pago</span></div>
+      <div class="payment-option"><span class="pay-icon" aria-hidden="true">●</span><span>Efectivo</span></div>
+    </div>
+  </section>
+</main>
+<footer><div class="footer-brand">BARBERÍA LO DEL ROCO</div><div>Tu estilo, tu turno.</div><div style="margin-top:10px"><a href="https://www.instagram.com/barberiaelroco/" target="_blank" rel="noopener">Instagram · @barberiaelroco</a></div><div style="margin-top:12px">© Barbería Lo Del Roco</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script>
+const slots=["18:00","18:45","19:30","20:15","21:00"];
+const dateInput=document.getElementById("bookingDate"), slotSelect=document.getElementById("slot");
+const result=document.getElementById("bookingResult"), submit=document.getElementById("submitBooking");
+const today=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`};
+dateInput.min=today();
+function weekdayOf(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d).getDay()}
+async function fillSlots(){
+ const date=dateInput.value;slotSelect.innerHTML="";
+ if(!date){slotSelect.add(new Option("Primero elegí una fecha",""));return}
+ const weekday=weekdayOf(date);
+ if(weekday===0||weekday===6||date<today()){slotSelect.add(new Option(date<today()?"Elegí una fecha futura":"Atendemos de lunes a viernes",""));return}
+ let available=slots.slice();
+ if(date===today()){const now=new Date(), mins=now.getHours()*60+now.getMinutes();available=available.filter(s=>{const [h,m]=s.split(":").map(Number);return h*60+m>mins})}
+ const client=await getClient();
+ if(client){
+  const {data,error}=await client.rpc("booked_slots_for_date",{p_date:date});
+  if(!error && Array.isArray(data)){
+   const booked=new Set(data.map(x=>String(x.slot_time).slice(0,5)));
+   available=available.filter(s=>!booked.has(s));
+  }
+ }
+ if(available.length===0){slotSelect.add(new Option("No quedan horarios disponibles",""));return}
+ slotSelect.add(new Option("Elegí un horario",""));
+ available.forEach(s=>slotSelect.add(new Option(s,s)));
+}
+dateInput.addEventListener("change",fillSlots);
+async function getClient(){
+ if(window.supabase && window.APP_CONFIG?.SUPABASE_URL && window.APP_CONFIG?.SUPABASE_ANON_KEY){
+  return window.supabase.createClient(window.APP_CONFIG.SUPABASE_URL,window.APP_CONFIG.SUPABASE_ANON_KEY);
+ }
+ return null;
+}
+document.getElementById("bookingForm").addEventListener("submit",async e=>{
+ e.preventDefault(); result.hidden=true;
+ const name=document.getElementById("customerName").value.trim(), phone=document.getElementById("customerPhone").value.trim();
+ const service=document.getElementById("service").value,date=dateInput.value,time=slotSelect.value;
+ const details=document.getElementById("details").value.trim();
+ if(!name||!phone||!service||!date||!time){return}
+ if(date<today()||[0,6].includes(weekdayOf(date))){alert("Elegí una fecha futura de lunes a viernes.");return}
+ submit.disabled=true;submit.textContent="Preparando solicitud...";
+ const client=await getClient();
+ let saved=false;
+ if(client){
+  const {error}=await client.from("appointments").insert({
+   customer_name:name,customer_phone:phone,service,booking_date:date,slot_time:time,
+   job_details:details||null,status:"pending"
+  });
+  if(error){
+   submit.disabled=false;submit.textContent="Solicitar turno";
+   if(error.code==="23505"||error.code==="23P01"){result.textContent="Ese horario acaba de ocuparse. Elegí otro horario.";result.hidden=false;fillSlots();return}
+   result.textContent="No se pudo registrar la solicitud. Probá nuevamente o contactanos por WhatsApp.";result.hidden=false;return;
+  }
+  saved=true;
+ }
+ const message=`Hola, El Roco. Quiero solicitar un turno:\n\nNombre: ${name}\nTeléfono: ${phone}\nServicio: ${service}\nFecha: ${date}\nHora: ${time}\nDetalles: ${details||"Sin detalles adicionales"}\n\n¿Me confirman si está disponible?`;
+ const wa="https://wa.me/59899924243?text="+encodeURIComponent(message);
+ result.textContent=saved?"Solicitud registrada como pendiente. El horario quedó reservado provisionalmente y se abrirá WhatsApp para avisar a la barbería.":"La web todavía no está conectada a la base de datos; se abrirá WhatsApp, pero el horario no queda bloqueado automáticamente.";
+ result.hidden=false;window.open(wa,"_blank","noopener");
+ submit.disabled=false;submit.textContent="Solicitar turno";
+ if(saved) await fillSlots();
+});
+</script>
+</body>
+</html>
